@@ -3,11 +3,11 @@ This is a PCD8544 LCD driver library suitable for the RP2040 microcontroller.
 
 ***
 
-## Usage method
+# Usage method
 
-#### Initialization:
+## Initialization:
 
-Header file and pin definitions:
+#### Header file and pin definitions:
 ```
 #include "pcd8544.h"
 
@@ -54,5 +54,5 @@ Header file and pin definitions:
 
 ***
 
-## Compilation Notes
+# Compilation Notes
 Please be sure to add `pcd8544.c` to the `CMakeLists.txt` file and add the `hardware_spi` dependency in the `CMakeLists.txt`.
