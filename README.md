@@ -5,9 +5,9 @@ This is a PCD8544 LCD driver library suitable for the RP2040 microcontroller.
 
 # Usage method
 
-## Initialization:
+## Initialization
 
-#### Header file and pin definitions:
+** Header file and pin definitions **
 ```
 #include "pcd8544.h"
 
@@ -20,7 +20,7 @@ This is a PCD8544 LCD driver library suitable for the RP2040 microcontroller.
 #define PIN_RST  6
 ```
 
-#### Initialize in main()
+** Initialize in main() **
 ```
     pcd8544_t lcd;
     pcd8544_pins_t pins = {
